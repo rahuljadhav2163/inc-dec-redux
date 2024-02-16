@@ -11,3 +11,15 @@
   color: rgb(33, 44, 53);
   font-family: 'Metropolise', sans-serif;
 }
+.num-container{
+  display: flex;
+  margin-left: 640px;
+  color: white;
+}
+.num{
+  padding: 0px 30px;
+  font-size: 45px;
+  cursor: pointer;
+  background-color: brown;
+ 
+}
