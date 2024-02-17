@@ -1,25 +1,66 @@
-.heading{
+
+.heading,
+.text-line {
   text-align: center;
-  font-size: 45px;
-  color: rgb(33, 44, 53);
   font-family: 'Metropolise', sans-serif;
+  color: rgb(33, 44, 53);
+}
+
+.heading {
+  font-size: 45px;
   margin-top: 10%;
 }
-.text-line{
-  text-align: center;
+
+.text-line {
   font-size: 21px;
-  color: rgb(33, 44, 53);
-  font-family: 'Metropolise', sans-serif;
 }
-.num-container{
+
+.num-container {
   display: flex;
-  margin-left: 640px;
+  justify-content: center; 
   color: white;
 }
-.num{
-  padding: 0px 30px;
-  font-size: 45px;
+
+.num {
+  padding: 0px 15px; 
+  font-size: 30px; 
   cursor: pointer;
   background-color: brown;
- 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 35px; 
+  }
+
+  .text-line {
+    font-size: 18px; 
+  }
+
+  .num-container {
+    margin-left: 0; 
+  }
+
+  .num {
+    padding: 0px 10px; 
+    font-size: 25px; 
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .heading {
+    font-size: 25px; 
+    margin-top: 5%; 
+  }
+
+  .text-line {
+    font-size: 16px; 
+  }
+
+  .num {
+    padding: 0px 5px; 
+    font-size: 20px; 
+  }
 }
